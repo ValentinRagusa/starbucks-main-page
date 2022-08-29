@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: "SoDo Sans",Helvetica,Arial,sans-serif;
+    height: 250vh;
+    margin: auto;
+
+}
+
+
+
+.main-content {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.top-navbar {
+    background-color: white;   aquamarine
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    -webkit-box-shadow: 0px -1px 14px 5px rgba(0,0,0,0.26); 
+    box-shadow: 0px -8px 14px 5px rgba(0,0,0,0.16);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    /* background-color: rgb(255, 0, 0, 0.5); */
+    margin: 15px;
+    margin-left: 10vw;
+    
+}
+
+.svg-logo-nav:hover {
+    cursor: pointer;
+}
+
+.main-menu {
+    /* background-color: blue; */
+    padding-left: 40px;
+    height: 1em;
+    width: 500%;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+.main-menu-navbar {
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: ;
+}
+
+.text-hover:hover {
+    color: #00754a;
+    cursor: pointer;
+}
+
+.location-logo {
+    padding-left: 10em;
+    display: flex;
+    align-items: center;
+}
+
+.find-store {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.location-op:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.container2 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .5vw;
+}
+
+.navbar-right {
+    padding-right: 10vw;
+}
+
+.block-left {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.photo1 {
+    max-width: 100%;
+    height: 100%;
+}
+
+.conatiner-empty {
+    width: 100%;
+    height: auto;
+    background-color: #20c99643;
+    /* border: 1px solid black; */
+}
+
+.picture-size {
+    width: 100%;
+}
+
+.top-padding {
+    margin-top: 3vh;
+}
+
+.conatiner-empty2 {
+    width: 100%;
+    height: auto;
+    background-color: #20c9961d;
+    /* border: 1px solid black; */
+}
+
+.promo-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.promo-text2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wrap-text {
+    text-transform: uppercase;
+    font-size: 1.188rem;
+    color: #006241;
+    -webkit-font-smoothing: antialiased;
+
+}
